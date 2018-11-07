@@ -21,3 +21,20 @@ public class ArrayMethods {
 			}
 		}
 	}
+
+	public static int[] allRowSums(int[][] ary){
+		int[] array = new int[ary.length];
+		for (int i = 0; i < ary.length; i++) {
+			array[i] = rowSum(int[][] ary, int i);
+		}
+		return array;
+	}
+
+
+
+
+
+
+
+
+
