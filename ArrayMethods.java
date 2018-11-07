@@ -20,6 +20,7 @@ public class ArrayMethods {
 				sum += ary[i][x];
 			}
 		}
+		return sum;
 	}
 
 	public static int[] allRowSums(int[][] ary){
@@ -63,7 +64,7 @@ public class ArrayMethods {
 		}
 		return true;
 	}
-
+}
 
 
 
