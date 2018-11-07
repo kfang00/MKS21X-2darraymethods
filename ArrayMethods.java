@@ -30,6 +30,19 @@ public class ArrayMethods {
 		return array;
 	}
 
+	public static int[] allColSums(int[][] ary){
+		int size = 0;
+		for (int i = 0; i < ary.length; i++) {
+			if (ary[i].length > size) {
+				size = ary[i].length;
+			}
+		}
+		int[] array = new int[size];
+		for (int i = 0; i < array.length; i++) {
+			array[i] = columnSum(int[][] ary, int i);
+		}
+		return array;
+	}
 
 
 
